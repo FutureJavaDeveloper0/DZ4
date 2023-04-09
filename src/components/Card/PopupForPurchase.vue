@@ -29,7 +29,6 @@ function closeHandler() {
 <template>
     <Teleport to="#popup">
         <Transition>
-
             <div v-if="open" :class="css.popup" role="alert">
                 <p :class="css.popup__content">
                     <slot></slot>
