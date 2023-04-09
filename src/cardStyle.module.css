@@ -1,0 +1,8 @@
+.car {
+    padding: 15px 10px;
+    border: 5px solid white;
+    border-radius: 30px;
+    margin: 40px;
+    cursor: pointer;
+    transition: background-color 0.1s linear;
+}
