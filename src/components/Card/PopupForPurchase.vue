@@ -34,21 +34,7 @@ function closeHandler() {
                     <slot></slot>
                 </p>
                 <button :class="css.popup__times" @click="closeHandler">&times;</button>
-                <div :class="css.popup__line" :style="`animation-duration: ${props.duration || TIME_OUT}ms;`" />
-            </div>
-            
-        </Transition>
-    </Teleport>
-</template>
-
-<style scoped>
-.v-enter-active,
-.v-leave-active {
-    transition: 1000ms;
-}
-
-.v-enter-from {
-    opacity: 0.2;
+                <di
     color: red;
     transform: translateY(-100%);
 }
